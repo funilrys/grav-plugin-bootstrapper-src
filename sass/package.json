@@ -3,7 +3,9 @@
   "description": "Sources of bootstrap.",
   "version": "1.0.0",
   "keywords": [
-    "bootstrap"
+    "bootstrap",
+    "grav",
+    "bootstrapper"
   ],
   "maintainers": [
     {
@@ -26,16 +28,11 @@
   "bugs": {
     "web": "https://github.com/funilrys/grav-plugin-bootstrapper-src/issues/new"
   },
-  "repositories": [
+  "repository": [
     {
       "type": "git",
       "url": "https://github.com/funilrys/grav-plugin-bootstrapper-src.git"
     }
   ],
-  "licenses": [
-    {
-      "name": "MIT",
-      "url": "https://raw.githubusercontent.com/funilrys/grav-plugin-bootstrapper-src/master/LICENSE"
-    }
-  ]
+   "license": "MIT"
 }
