@@ -12,8 +12,16 @@
       "web": "funilrys.com"
     }
   ],
+   "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-bower": "0.0.13",
+    "gulp-clean-css": "^3.0.0",
+    "gulp-minify": "0.0.15",
+    "gulp-rename": "^1.2.2",
+    "gulp-sass": "^3.1.0"
+  },
   "dependencies": {
-    "tet": ""
+    "gulp-delete-file": "^1.0.2"
   },
   "bugs": {
     "web": "https://github.com/funilrys/grav-plugin-bootstrapper-src/issues/new"
