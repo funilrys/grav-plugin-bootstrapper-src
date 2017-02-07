@@ -58,12 +58,12 @@ var config = {
      * css destination folder
      * @type String
      */
-    publicCssDir: '../../css',
+    publicCssDir: '../css',
     /**
      * font destination folder
      * @type String
      */
-    publicFontDir: '../../fonts',
+    publicFontDir: '../fonts',
 };
 
 /**
