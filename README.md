@@ -21,7 +21,7 @@ Be sure to have the following installed depending of what you want to use.
 
 ## LESS
 * [Node.JS](https://nodejs.org/download/)
-* `grunt-cli` ==> `npm install -g grunt-cli`
+* `grunt-cli` => `npm install -g grunt-cli`
 
 -----
 
