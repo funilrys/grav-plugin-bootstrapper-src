@@ -2,7 +2,7 @@
  * Bootstrap's Gruntfile
  * http://getbootstrap.com
  * Copyright 2013-2016 Twitter, Inc.
- * Modified on Tuesday, 7 February 2017 (CET) by Nissar Chababy <funilrys at outlook dot com>
+ * Modified on Tuesday, 7 February 2017 (CET) By Nissar Chababy <funilrys at outlook dot com>
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  */
 
