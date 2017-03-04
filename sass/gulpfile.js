@@ -1,7 +1,7 @@
 /*
  * The MIT License
  *
- * Copyright 2017 Nissar Chababy <funilrys at outlook dot com>.
+ * Copyright 2017 Nissar Chababy <contact at funilrys dot com>.
  *
  * Permission is hereby granted, free of charge, to any person obtaining a copy
  * of this software and associated documentation files (the "Software"), to deal
@@ -132,6 +132,9 @@ gulp.task('delete-minified', function ()
 gulp.task('minify-css', ['css-bootstrap-theme', 'css-bootstrap', 'delete-minified'], function ()
 {
     return gulp.src(config.publicCssDir + '/*css')
+            .pipe(cleanCSS({
+                compatibility: 'ie8'
+            }))
             .pipe(rename({
                 suffix: '.min'
             }))
